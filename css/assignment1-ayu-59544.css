@@ -1,3 +1,102 @@
 * {
     color: white;
 }
+
+#header {
+    position: absolute;
+    font-family: monospace;
+    border: double;
+    bottom: 76%;
+    left: 40%;
+    width: 25%;
+    height: 20%;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+}
+
+div {
+    width: 60%;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+    
+}
+
+body {
+    background-image: url("../img/backgroundimage.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-size: 1em;
+    
+    
+}
+
+aside {
+    background-color: red;
+    border-style: solid;
+    border-width: 1px;
+    float: right;
+    width: 30%;
+    padding: 10px;
+    margin: 36px;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+#leftColumn {
+    position: absolute;
+    border: double;
+    bottom: 260px;
+    left: 100px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(222,38,38,0.8);
+    padding: 1em;
+}
+
+#leftColumn2 {
+    position: absolute;
+    border: double;
+    bottom: 260px;
+    left: 450px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(222,38,38,0.8);
+    padding: 1em;
+}
+
+#rightColumn {
+    position: absolute;
+    border: double;
+    bottom: 460px;
+    right: 380px;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(222,38,38,0.8);
+    padding: 1em;
+}
+
+#rightColumn2 {
+    position: absolute;
+    border: double;
+    bottom: 360px;
+    right: 30px;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(222,38,38,0.8);
+    padding: 1em;
+}
+
+#musicBox {
+    position: absolute;
+    bottom: 260px;
+    right: 355px;
+    height: 100px;
+    width: 300px;
+    padding: 1em;
+}
+
